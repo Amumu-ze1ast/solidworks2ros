@@ -1,0 +1,1 @@
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try0/devel/.private/movit_robot_arm_sim/share/movit_robot_arm_sim/cmake/movit_robot_arm_simConfig.cmake

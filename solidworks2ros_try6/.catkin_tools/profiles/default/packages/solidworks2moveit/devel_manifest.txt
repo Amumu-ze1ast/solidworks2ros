@@ -1,0 +1,5 @@
+solidworks2moveit
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/.private/solidworks2moveit/cmake.lock /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/./cmake.lock
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/.private/solidworks2moveit/share/solidworks2moveit/cmake/solidworks2moveitConfig.cmake /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/share/solidworks2moveit/cmake/solidworks2moveitConfig.cmake
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/.private/solidworks2moveit/share/solidworks2moveit/cmake/solidworks2moveitConfig-version.cmake /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/share/solidworks2moveit/cmake/solidworks2moveitConfig-version.cmake
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/.private/solidworks2moveit/lib/pkgconfig/solidworks2moveit.pc /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/devel/lib/pkgconfig/solidworks2moveit.pc

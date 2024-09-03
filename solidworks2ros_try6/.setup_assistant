@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: solidworks2ros_try3
+    relative_path: urdf/solidworks2ros_try3.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/solidworks2ros_try3.srdf
+  CONFIG:
+    author_name: Amumu Ye
+    author_email: aatereda@aggies.ncat.edu
+    generated_timestamp: 1724950795

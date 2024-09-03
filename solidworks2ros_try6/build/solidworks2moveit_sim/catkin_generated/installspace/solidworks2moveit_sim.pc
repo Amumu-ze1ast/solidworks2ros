@@ -1,0 +1,8 @@
+prefix=/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/install
+
+Name: solidworks2moveit_sim
+Description: Description of solidworks2moveit_sim
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

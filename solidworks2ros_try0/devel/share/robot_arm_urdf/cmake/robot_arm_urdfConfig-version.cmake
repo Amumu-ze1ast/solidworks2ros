@@ -1,0 +1,1 @@
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try0/devel/.private/robot_arm_urdf/share/robot_arm_urdf/cmake/robot_arm_urdfConfig-version.cmake

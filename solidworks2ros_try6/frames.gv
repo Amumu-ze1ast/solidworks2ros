@@ -1,0 +1,7 @@
+digraph G {
+"dummy" -> "base_link"[label="Broadcaster: /RSP\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 437.959 sec old)\nBuffer length: 0.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 437.959"[ shape=plaintext ] ;
+ }->"dummy";
+}

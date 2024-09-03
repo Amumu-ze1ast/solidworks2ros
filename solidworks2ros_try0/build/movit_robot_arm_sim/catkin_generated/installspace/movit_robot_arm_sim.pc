@@ -1,0 +1,8 @@
+prefix=/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try0/install
+
+Name: movit_robot_arm_sim
+Description: Description of movit_robot_arm_sim
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

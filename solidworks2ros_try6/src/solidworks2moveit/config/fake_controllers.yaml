@@ -1,0 +1,8 @@
+controller_list:
+  - name: fake_rotate_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - joint_1
+initial:  # Define initial robot poses per group
+  - group: rotate_group
+    pose: half_rotate

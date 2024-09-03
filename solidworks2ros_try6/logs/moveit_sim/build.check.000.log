@@ -1,0 +1,3 @@
+CMake Error: The source directory "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try6/src/moveit_sim" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:334: cmake_check_build_system] Error 1
