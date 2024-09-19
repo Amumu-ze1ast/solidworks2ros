@@ -1,0 +1,1 @@
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try8/devel/.private/solidworks2ros_try8/share/solidworks2ros_try8/cmake/solidworks2ros_try8Config.cmake

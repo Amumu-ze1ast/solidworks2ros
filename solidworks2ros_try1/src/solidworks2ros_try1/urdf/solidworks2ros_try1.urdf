@@ -15,14 +15,14 @@
       <inertia
         ixx="2643.5"
         ixy="-1.9222E-13"
-        ixz="1.7642E-15"
+        ixz="1.0497E-13"
         iyy="230.15"
-        iyz="8.5147E-14"
+        iyz="7.9816E-14"
         izz="2821.5" />
     </inertial>
     <visual>
       <origin
-        xyz="0 0 0"
+        xyz="1 1 1"
         rpy="0 0 0" />
       <geometry>
         <mesh
