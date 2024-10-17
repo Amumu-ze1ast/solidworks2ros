@@ -1,0 +1,1 @@
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try14/devel/.private/rope_try_chatgpt/share/rope_try_chatgpt/cmake/rope_try_chatgptConfig.cmake

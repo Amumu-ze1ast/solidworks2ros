@@ -1,0 +1,20 @@
+<launch>
+  <!-- Launch Gazebo simulation -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+  </include>
+
+  <!-- Load robot description -->
+  <param name="robot_description" textfile="$(find rope_try_chatgpt)/urdf/rope_xacro.urdf"/>
+
+  <!-- Spawn robot in Gazebo -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model simple_rope" />
+
+  <!-- Load joint state controller -->
+  <rosparam file="$(find rope_try_chatgpt)/config/rope_control.yaml" />
+
+  <!-- Start controller manager -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" args="rope_position_controller" />
+</launch>

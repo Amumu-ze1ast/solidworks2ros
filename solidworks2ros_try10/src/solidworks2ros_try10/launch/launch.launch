@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="robot_description" textfile="$(find solidworks2ros_try10)/urdf/solidworks2ros_try10.urdf"/> 
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+    
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model solidworks2ros_try10"    />
+
+    <node name="Robot_State_Publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
+
+    <rosparam  file="$(find solidworks2ros_try10)/config/position_controller.yaml"/>
+
+    <node name="Controller_Spawner" pkg="controller_manager" type="spawner" args="joint_1_controller " />
+
+    
+</launch>

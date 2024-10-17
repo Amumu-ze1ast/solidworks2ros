@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot name="solidworks2ros_try13">
+  
+  <link name="dummy"> 
+  </link>
+
+  <joint name="dummy_joint" type="fixed">
+     <parent link="dummy"/>
+     <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="-1.8415 1.8923 1.9388"
+        rpy="0 0 0" />
+      <mass
+        value="1189.8" />
+      <inertia
+        ixx="1516.6"
+        ixy="-1.4201E-16"
+        ixz="3.7348E-15"
+        iyy="1517.6"
+        iyz="1.5653E-13"
+        izz="2.2082" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="fixed_link1">
+    <inertial>
+      <origin
+        xyz="-1.905 1.8923 -0.010583"
+        rpy="0 0 0" />
+      <mass
+        value="463.57" />
+      <inertia
+        ixx="0.77054"
+        ixy="8.9619E-16"
+        ixz="1.1939E-15"
+        iyy="560.97"
+        iyz="2.4877E-16"
+        izz="561.34" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/fixed_link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/fixed_link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint
+    name="fixed_joint1"
+    type="fixed">
+    <origin
+      xyz="0.0635 0 3.9116"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="fixed_link1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+  <link name="link_1">
+    <inertial>
+      <origin
+        xyz="-0.0508 1.8923 0.075863"
+        rpy="0 0 0" />
+      <mass
+        value="19.418" />
+      <inertia
+        ixx="237.59"
+        ixy="2.0843E-16"
+        ixz="-4.0205E-18"
+        iyy="0.381"
+        iyz="6.3902E-14"
+        izz="237.48" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="joint_1"
+    type="prismatic">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="fixed_link1" />
+    <child
+      link="link_1" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="0"
+      upper="3.5"
+      effort="10"
+      velocity="0.5" />
+  </joint>
+
+  <link name="link_2">
+    <inertial>
+      <origin
+        xyz="0.0127 0.0635 -0.15487"
+        rpy="0 0 0" />
+      <mass
+        value="19.999" />
+      <inertia
+        ixx="6.1138"
+        ixy="-1.1592E-16"
+        ixz="-3.0278E-15"
+        iyy="12.79"
+        iyz="-1.015E-16"
+        izz="7.2159" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try13/meshes/link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_2"
+    type="prismatic">
+    <origin
+      xyz="-0.0635 0.0635 0.0762"
+      rpy="0 0 0" />
+    <parent
+      link="link_1" />
+    <child
+      link="link_2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="3.5"
+      effort="10"
+      velocity="0.5" />
+  </joint>
+
+  <!-- Position Contoller -->
+<transmission name ="trans_1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_1">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_1">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+</transmission>
+
+<transmission name ="trans_2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_2">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_2">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+</transmission>
+
+<!-- Gazebo controller -->
+<gazebo>
+    <plugin name="control" filename="libgazebo_ros_control.so"/>
+</gazebo>
+
+<!-- Gazebo plugin: make base_link static, this makes the base_link fixed to the world in Gazebo -->
+<gazebo reference="base_link">
+  <static>true</static>  
+</gazebo>
+
+<!-- Gazebo visual interface for the links-->
+<gazebo reference="base_link">
+    <material>Gazebo/Gray</material>
+</gazebo>
+
+<gazebo reference="fixed_link1">
+    <material>Gazebo/Green</material>
+</gazebo>
+
+<gazebo reference="link_1">
+    <material>Gazebo/Orange</material>
+</gazebo>
+
+<gazebo reference="link_2">
+    <material>Gazebo/Red</material>
+</gazebo>
+
+</robot>

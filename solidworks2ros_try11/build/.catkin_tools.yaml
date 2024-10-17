@@ -1,0 +1,6 @@
+devel_space: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try11/devel
+install: false
+install_space: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try11/install
+profile: default
+source_space: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try11/src
+workspace: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try11

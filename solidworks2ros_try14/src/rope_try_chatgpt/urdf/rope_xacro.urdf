@@ -1,0 +1,243 @@
+<?xml version="1.0" ?>
+
+<robot name="simple_rope">
+  <!-- Base link (fixed to world) -->
+  <link name="dummy"> 
+  </link>
+
+  <joint name="dummy_joint" type="fixed">
+     <parent link="dummy"/>
+     <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <inertial>
+      <mass value="2.0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.2" ixy="0.0" ixz="0.0" iyy="0.2" iyz="0.0" izz="0.2"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2 0.2 0.2"/>
+      </geometry>
+      <material name=""/>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.2 0.2 0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+   <!-- Create the first link connected to the base -->
+  <link name="rope_link_0">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0.1"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </collision>
+  </link>
+  
+  <joint name="joint_0" type="prismatic">
+    <parent link="base_link"/>
+    <child link="rope_link_0"/>
+    <origin xyz="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="0" upper="0.5" velocity="1.0"/>
+  </joint>
+
+  <!-- Manually add subsequent link -->
+  <link name="rope_link_1">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0.1"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </collision>
+  </link>
+
+  <joint name="joint_1" type="prismatic">
+    <parent link="base_link"/>
+    <child link="rope_link_1"/>
+    <origin xyz="0 0 0.0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="0" upper="0.5" velocity="1.0"/>
+  </joint>
+
+  <link name="rope_link_2">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0.1"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </collision>
+  </link>
+
+  <joint name="joint_2" type="prismatic">
+    <parent link="base_link"/>
+    <child link="rope_link_2"/>
+    <origin xyz="0 0 0.0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="0" upper="0.5" velocity="1.0"/>
+  </joint>
+
+  <link name="rope_link_3">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0.1"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </visual>
+      <collision>
+        <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+      </collision>
+  </link>
+
+  <joint name="joint_3" type="prismatic">
+    <parent link="base_link"/>
+    <child link="rope_link_3"/>
+    <origin xyz="0 0 0.0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="0" upper="0.5" velocity="1.0"/>
+  </joint>
+
+  <link name="rope_link_4">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0.1"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.2" radius="0.02"/>
+      </geometry>
+      <material name=""/>
+    </collision>
+  </link>
+
+  <joint name="joint_4" type="prismatic">
+    <parent link="base_link"/>
+    <child link="rope_link_4"/>
+    <origin xyz="0 0 0.0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="0" upper="0.5" velocity="1.0"/>
+  </joint>
+
+  <transmission name ="trans_0">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_0">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_0">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+  <transmission name ="trans_1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_1">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_1">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name ="trans_2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_2">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_2">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name ="trans_3">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_3">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_3">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name ="trans_4">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_4">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_4">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <!-- Gazebo plugin for controlling the rope -->
+  <gazebo>
+    <plugin name="ros_control" filename="libgazebo_ros_control.so">
+    </plugin>
+  </gazebo>
+
+</robot>
+

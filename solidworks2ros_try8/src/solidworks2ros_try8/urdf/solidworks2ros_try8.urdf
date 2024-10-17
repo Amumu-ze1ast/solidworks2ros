@@ -225,7 +225,7 @@
       upper="10"
       effort="100"
       velocity="1" />
-  </joint>
+  </joint>z
 
 <!-- Position Contoller -->
 <transmission name ="trans_1">

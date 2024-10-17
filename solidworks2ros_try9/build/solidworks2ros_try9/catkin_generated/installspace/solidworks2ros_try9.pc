@@ -1,0 +1,8 @@
+prefix=/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try9/install
+
+Name: solidworks2ros_try9
+Description: Description of solidworks2ros_try9
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
