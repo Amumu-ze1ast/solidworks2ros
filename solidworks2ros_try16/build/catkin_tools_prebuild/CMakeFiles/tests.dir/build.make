@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild
+CMAKE_SOURCE_DIR = /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild
+CMAKE_BINARY_DIR = /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/build/catkin_tools_prebuild/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

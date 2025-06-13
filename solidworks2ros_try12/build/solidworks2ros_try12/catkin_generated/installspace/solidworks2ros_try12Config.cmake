@@ -67,14 +67,14 @@ set(solidworks2ros_try12_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(solidworks2ros_try12_SOURCE_PREFIX /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/src/solidworks2ros_try12)
-  set(solidworks2ros_try12_DEVEL_PREFIX /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12)
+  set(solidworks2ros_try12_SOURCE_PREFIX /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/src/solidworks2ros_try12)
+  set(solidworks2ros_try12_DEVEL_PREFIX /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12)
   set(solidworks2ros_try12_INSTALL_PREFIX "")
   set(solidworks2ros_try12_PREFIX ${solidworks2ros_try12_DEVEL_PREFIX})
 else()
   set(solidworks2ros_try12_SOURCE_PREFIX "")
   set(solidworks2ros_try12_DEVEL_PREFIX "")
-  set(solidworks2ros_try12_INSTALL_PREFIX /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/install)
+  set(solidworks2ros_try12_INSTALL_PREFIX /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/install)
   set(solidworks2ros_try12_PREFIX ${solidworks2ros_try12_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/install/lib;/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/install/lib;/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

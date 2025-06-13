@@ -1,0 +1,48 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50  # Adjust this value as needed
+
+# Position controller for X-axis movement
+joint_Xaxis_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_1
+
+# Position controller for Y-axis movement
+joint_Yaxis_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_2
+
+# Position controller for the rotation of the trolley / pulley
+joint_trolley_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_3
+
+# Position controller for the up and down movement of different parts of the rope
+joint_ropeGroup_position_controller:
+  type: "position_controllers/JointGroupPositionController"
+  joints: 
+    - joint_4
+    - joint_5
+    - joint_6
+    - joint_7
+    - joint_8
+    - joint_9
+    - joint_91
+  
+# Position controller for Z-axis movement
+joint_Zaxis_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_92  
+
+# Position controller for the gripper right-finger movement
+joint_gripper_right_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_94 
+
+# Position controller for the gripper left-finger movement
+joint_gripper_left_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_95
+
+
+

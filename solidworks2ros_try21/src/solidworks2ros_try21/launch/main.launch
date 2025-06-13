@@ -1,0 +1,11 @@
+<launch>
+
+    <param name="/use_sim_time" value="true" />
+
+    <!-- Start gazebo world -->
+    <node name="gazebo" pkg="gazebo_ros" type="gazebo" args="$(find gazebo_ros)/launch/empty_world.launch" />
+
+    <!-- Include the robots -->
+    <include file="$(find solidworks2ros_try21)/launch/robots.launch" />
+
+</launch>

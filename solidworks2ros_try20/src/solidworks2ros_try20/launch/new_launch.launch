@@ -1,0 +1,47 @@
+<launch>
+    <!-- Launch Gazebo empty world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+
+    <!-- Load robot1 and robot2 descriptions in the global scope -->
+    <param name="robot1/robot_description" command="$(find xacro)/xacro $(find solidworks2ros_try20)/urdf/solidworks2ros_try20.urdf" />
+    <param name="robot2/robot_description" command="$(find xacro)/xacro $(find solidworks2ros_try20)/urdf/cube_pick_place.urdf" />
+
+    <group ns="robot1">
+        <!-- Spawn robot1 in Gazebo -->
+        <node name="spawn_robot" pkg="gazebo_ros" type="spawn_model" args="-param robot1/robot_description -urdf -model solidworks2ros_try20" />
+
+
+
+        <!-- Load the controller for robot1 -->
+        <rosparam file="$(find solidworks2ros_try20)/config/position_controller_crane.yaml" />
+        <node name="Controller_Spawner_robot1" pkg="controller_manager" type="spawner" args="joint_state_controller 
+                                                                                            joint_Xaxis_position_controller
+                                                                                            joint_Yaxis_position_controller
+                                                                                            joint_trolley_position_controller
+                                                                                            joint_ropeGroup_position_controller
+                                                                                            joint_Zaxis_position_controller
+                                                                                            joint_gripper_right_position_controller
+                                                                                            joint_gripper_left_position_controller" />
+                                                                                            
+        <!-- Load joint state and robot state publishers for robot1 -->
+        <node name="joint_state_publisher_robot1" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
+        <node name="robot_state_publisher_robot1" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
+    </group>
+
+    <group ns="robot2">
+        <!-- Spawn robot2 in Gazebo -->
+        <node name="spawn_cube" pkg="gazebo_ros" type="spawn_model" args="-param robot2/robot_description -urdf -model cube_pick_place -x -1.0 -y 1.0 -z 0.0" />
+
+        <!-- Load the controller for robot2 -->
+        <rosparam file="$(find solidworks2ros_try20)/config/position_controller_box.yaml" />
+        <node name="Controller_Spawner_robot2" pkg="controller_manager" type="spawner" args="joint_state_controller joint_cube_position_controller" />
+
+        <!-- Load joint state and robot state publishers for robot2 -->
+        <node name="joint_state_publisher_robot2" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
+        <node name="robot_state_publisher_robot2" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
+    </group>
+
+    <!-- Load rqt_reconfigure GUI -->
+    <node name="rqt_reconfigure" pkg="rqt_gui" type="rqt_gui" output="screen" />
+
+</launch>

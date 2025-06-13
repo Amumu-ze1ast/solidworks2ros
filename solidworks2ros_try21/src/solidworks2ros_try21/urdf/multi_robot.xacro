@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<robot name="multi_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Robot 1 Definition -->
+    <xacro:macro name="robot1" >
+        <robot name="robot1">
+            <link name="robot1_base_link">
+                <visual>
+                    <geometry>
+                        <box size="0.2 0.2 0.2"/>
+                    </geometry>
+                </visual>
+            </link>
+
+            <joint name="robot1_joint" type="fixed">
+                <parent link="world"/>
+                <child link="robot1_base_link"/>
+                <origin xyz="0 0 0.2"/>
+            </joint>
+        </robot>
+    </xacro:macro>
+
+    <!-- Robot 2 Definition -->
+    <xacro:macro name="robot2" >
+        <robot name="robot2">
+            <link name="robot2_base_link">
+                <visual>
+                    <geometry>
+                        <box size="0.3 0.3 0.3"/>
+                    </geometry>
+                </visual>
+            </link>
+
+            <joint name="robot2_joint" type="fixed">
+                <parent link="world"/>
+                <child link="robot2_base_link"/>
+                <origin xyz="1.0 0.0 0.3"/>
+            </joint>
+        </robot>
+    </xacro:macro>
+
+    <!-- Call the robot macros to instantiate them with different namespaces -->
+    <xacro:robot1/>
+    <xacro:robot2/>
+
+</robot>

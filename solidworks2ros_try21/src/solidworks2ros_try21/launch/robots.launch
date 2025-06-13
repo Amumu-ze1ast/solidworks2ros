@@ -1,0 +1,44 @@
+<launch>
+    <!-- No namespace here as we will share this description -->
+    <param name="robot_description" command="$(find xacro)/xacro $(find solidworks2ros_try21)/urdf/cube_pick_place.urdf" />
+
+
+    <!-- Begin robot 1 -->
+    <group ns="robot1" >
+
+        <param name="tf_prefix" value="robot1_tf" />
+        <include file="$(find solidworks2ros_try21)/launch/one_robot.launch" >
+            <arg name="init_pose" value="-x 0.0 -y 0.0 -z 0.0" />
+            <arg name="robot_name" value="Robot1" />
+        </include>
+
+        <!-- Launch the controller_manager for robot1 -->
+        <node name="controller_manager_robot1" pkg="controller_manager" type="controller_manager" 
+              respawn="false" output="screen" ns="/robot1"/>
+
+        <!-- Load the controller for robot1 -->
+        <rosparam file="$(find solidworks2ros_try21)/config/position_controller_box.yaml" ns="/robot1"/>
+        <node name="Controller_Spawner_robot1" pkg="controller_manager" type="spawner" 
+              args="joint_state_controller joint_cube_position_controller" 
+              ns="/robot1"/>
+    </group>
+
+    <!-- Begin robot 2 -->
+    <group ns="robot2" >
+        <param name="tf_prefix" value="robot2_tf" />
+        <include file="$(find solidworks2ros_try21)/launch/one_robot.launch" >
+            <arg name="init_pose" value="-x 1.0 -y 0.0 -z 0.0" />
+            <arg name="robot_name" value="Robot2" />
+        </include>
+
+        <!-- Launch the controller_manager for robot2 -->
+        <node name="controller_manager_robot2" pkg="controller_manager" type="controller_manager" 
+              respawn="false" output="screen" ns="/robot2"/>
+
+        <!-- Load the controller for robot2 -->
+        <rosparam file="$(find solidworks2ros_try21)/config/position_controller_box.yaml" ns="/robot2"/>
+        <node name="Controller_Spawner_robot2" pkg="controller_manager" type="spawner" 
+              args="joint_state_controller joint_cube_position_controller" 
+              ns="/robot2"/>
+    </group>
+</launch>

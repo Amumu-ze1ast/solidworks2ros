@@ -11,7 +11,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try16/devel/.private/solidworks2ros_try16}
+: ${_CATKIN_SETUP_DIR:=/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try16/devel/.private/solidworks2ros_try16}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

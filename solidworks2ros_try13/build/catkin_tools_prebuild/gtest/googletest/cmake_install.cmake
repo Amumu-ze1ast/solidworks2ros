@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try13/install")
+  set(CMAKE_INSTALL_PREFIX "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try13/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

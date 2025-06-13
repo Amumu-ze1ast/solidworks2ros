@@ -1,0 +1,46 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50  # Adjust this value as needed
+
+# Position controllers for each joint
+joint_Xaxis_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_1
+
+joint_Yaxis_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_2
+
+joint_trolley_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_3
+
+joint_ropeGroup_position_controller:
+  type: "position_controllers/JointGroupPositionController"
+  joints: 
+    - joint_4
+    - joint_5
+    - joint_6
+    - joint_7
+    - joint_8
+    - joint_9
+    - joint_91
+  
+joint_Zaxis_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_92  
+
+joint_gripper_right_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_94 
+
+joint_gripper_left_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: joint_95
+
+# joint_box_position_controller:
+#   type: "position_controllers/JointPositionController"
+#   joint: joint_box
+
+
+

@@ -7,11 +7,13 @@
     
     <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model solidworks2ros_try12"    />
 
-    <node name="Robot_State_Publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
-
     <rosparam  file="$(find solidworks2ros_try12)/config/position_controller.yaml"/>
 
     <node name="Controller_Spawner" pkg="controller_manager" type="spawner" args="joint_1_controller joint_2_controller" />
+
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
+    
+    <node name="Robot_State_Publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
 
     
 

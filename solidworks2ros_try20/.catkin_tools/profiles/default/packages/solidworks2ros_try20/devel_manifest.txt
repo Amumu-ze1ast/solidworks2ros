@@ -1,0 +1,7 @@
+solidworks2ros_try20
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/.private/solidworks2ros_try20/cmake.lock /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/./cmake.lock
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/.private/solidworks2ros_try20/share/solidworks2ros_try20/cmake/solidworks2ros_try20Config.cmake /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/share/solidworks2ros_try20/cmake/solidworks2ros_try20Config.cmake
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/.private/solidworks2ros_try20/share/solidworks2ros_try20/cmake/solidworks2ros_try20Config-version.cmake /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/share/solidworks2ros_try20/cmake/solidworks2ros_try20Config-version.cmake
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/.private/solidworks2ros_try20/lib/solidworks2ros_try20/moment_of_inertia.py /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/lib/solidworks2ros_try20/moment_of_inertia.py
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/.private/solidworks2ros_try20/lib/solidworks2ros_try20/cmake.lock /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/lib/solidworks2ros_try20/cmake.lock
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/.private/solidworks2ros_try20/lib/pkgconfig/solidworks2ros_try20.pc /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try20/devel/lib/pkgconfig/solidworks2ros_try20.pc

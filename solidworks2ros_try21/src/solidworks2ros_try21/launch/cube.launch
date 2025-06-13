@@ -1,0 +1,23 @@
+<launch>
+
+    <!-- Load and spawn the cube -->
+    <param name="robot_description" command="$(find xacro)/xacro $(find solidworks2ros_try21)/urdf/cube_pick_place.urdf" />
+    <node name="spawn_cube" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model cube_pick_place -x 0.0 -y 0.0 -z 0.0" />
+    
+    
+    <!-- Launch Gazebo empty world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+
+    <!-- Load the controller -->
+    <rosparam file="$(find solidworks2ros_try21)/config/position_controller_box.yaml" />
+    <node name="Controller_Spawner_cube" pkg="controller_manager" type="spawner" args="joint_state_controller joint_cube_position_controller" />
+    
+    <!-- Add the controller_manager node -->
+    <node name="controller_manager_box" pkg="controller_manager" type="controller_manager" respawn="false" output="screen"/>
+
+    <!-- Load important nodes-->
+    <node name="joint_state_publisher_cube" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
+    <node name="Robot_State_Publisher_cube" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
+    <node name="rqt_reconfigure_cube" pkg="rqt_gui" type="rqt_gui" output="screen" />
+        
+</launch>

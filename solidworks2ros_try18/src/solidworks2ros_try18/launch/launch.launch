@@ -1,0 +1,18 @@
+<launch>
+    <param name="robot_description" command="$(find xacro)/xacro $(find solidworks2ros_try18)/urdf/solidworks2ros_try18.urdf"/>
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+    
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model solidworks2ros_try18" />
+    
+    <rosparam file="$(find solidworks2ros_try18)/config/position_controller_short.yaml" />
+    
+    <!-- Add the controller_manager node -->
+    <node name="controller_manager" pkg="controller_manager" type="controller_manager" respawn="false" output="screen"/>
+    
+    <node name="Controller_Spawner" pkg="controller_manager" type="spawner" args="joint_state_controller joint_group_controller" />
+    
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
+    
+    <node name="Robot_State_Publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
+</launch>

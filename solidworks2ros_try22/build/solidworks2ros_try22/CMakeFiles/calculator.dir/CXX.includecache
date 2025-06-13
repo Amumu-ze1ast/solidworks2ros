@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22/src/calculator.cpp
+iostream
+-
+algorithm
+-
+

@@ -1,3 +1,15 @@
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config-version.cmake
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config.cmake
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/lib/pkgconfig/solidworks2ros_try12.pc
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config-version.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/devel/lib/pkgconfig/solidworks2ros_try12.pc
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12/cmake.lock, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/./cmake.lock)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config-version.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config-version.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12/lib/pkgconfig/solidworks2ros_try12.pc, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/lib/pkgconfig/solidworks2ros_try12.pc)
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/./cmake.lock
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config-version.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/share/solidworks2ros_try12/cmake/solidworks2ros_try12Config.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/lib/pkgconfig/solidworks2ros_try12.pc
+Already unlinked: {}

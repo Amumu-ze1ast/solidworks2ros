@@ -1,0 +1,130 @@
+[11.018s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22']
+[11.018s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fc145ab55b0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fc145ab55b0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc145ac0430>)
+[13.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[13.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[13.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[13.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[13.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[13.845s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22'
+[13.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extensions ['ignore', 'ignore_ament_install']
+[13.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'ignore'
+[13.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'ignore_ament_install'
+[13.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extensions ['colcon_pkg']
+[13.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'colcon_pkg'
+[13.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extensions ['colcon_meta']
+[13.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'colcon_meta'
+[13.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extensions ['ros']
+[13.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'ros'
+[13.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extensions ['cmake', 'python']
+[14.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'cmake'
+[14.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'python'
+[14.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extensions ['python_setup_py']
+[14.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22) by extension 'python_setup_py'
+[14.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extensions ['ignore', 'ignore_ament_install']
+[14.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'ignore'
+[14.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'ignore_ament_install'
+[14.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extensions ['colcon_pkg']
+[14.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'colcon_pkg'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extensions ['colcon_meta']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'colcon_meta'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extensions ['ros']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'ros'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extensions ['cmake', 'python']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'cmake'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'python'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extensions ['python_setup_py']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build) by extension 'python_setup_py'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extensions ['ignore', 'ignore_ament_install']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extension 'ignore'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extension 'ignore_ament_install'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extensions ['colcon_pkg']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extension 'colcon_pkg'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extensions ['colcon_meta']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extension 'colcon_meta'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extensions ['ros']
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) by extension 'ros'
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/catkin_tools_prebuild) ignored
+[14.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extensions ['ignore', 'ignore_ament_install']
+[14.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extension 'ignore'
+[14.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extension 'ignore_ament_install'
+[14.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extensions ['colcon_pkg']
+[14.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extension 'colcon_pkg'
+[14.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extensions ['colcon_meta']
+[14.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extension 'colcon_meta'
+[14.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extensions ['ros']
+[14.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) by extension 'ros'
+[14.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/build/solidworks2ros_try22) ignored
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/devel) by extensions ['ignore', 'ignore_ament_install']
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/devel) by extension 'ignore'
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/devel) by extension 'ignore_ament_install'
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/devel) ignored
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/log) by extensions ['ignore', 'ignore_ament_install']
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/log) by extension 'ignore'
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/log) ignored
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extensions ['ignore', 'ignore_ament_install']
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'ignore'
+[14.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'ignore_ament_install'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extensions ['colcon_pkg']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'colcon_pkg'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extensions ['colcon_meta']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'colcon_meta'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extensions ['ros']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'ros'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extensions ['cmake', 'python']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'cmake'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'python'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extensions ['python_setup_py']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs) by extension 'python_setup_py'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extensions ['ignore', 'ignore_ament_install']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'ignore'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'ignore_ament_install'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extensions ['colcon_pkg']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'colcon_pkg'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extensions ['colcon_meta']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'colcon_meta'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extensions ['ros']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'ros'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extensions ['cmake', 'python']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'cmake'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'python'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extensions ['python_setup_py']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/catkin_tools_prebuild) by extension 'python_setup_py'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extensions ['ignore', 'ignore_ament_install']
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'ignore'
+[14.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'ignore_ament_install'
+[14.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extensions ['colcon_pkg']
+[14.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'colcon_pkg'
+[14.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extensions ['colcon_meta']
+[14.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'colcon_meta'
+[14.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extensions ['ros']
+[14.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'ros'
+[14.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extensions ['cmake', 'python']
+[14.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'cmake'
+[14.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'python'
+[14.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extensions ['python_setup_py']
+[14.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/logs/solidworks2ros_try22) by extension 'python_setup_py'
+[14.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extensions ['ignore', 'ignore_ament_install']
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'ignore'
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'ignore_ament_install'
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extensions ['colcon_pkg']
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'colcon_pkg'
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extensions ['colcon_meta']
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'colcon_meta'
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extensions ['ros']
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'ros'
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extensions ['cmake', 'python']
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'cmake'
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'python'
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extensions ['python_setup_py']
+[14.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src) by extension 'python_setup_py'
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extensions ['ignore', 'ignore_ament_install']
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extension 'ignore'
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extension 'ignore_ament_install'
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extensions ['colcon_pkg']
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extension 'colcon_pkg'
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extensions ['colcon_meta']
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extension 'colcon_meta'
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extensions ['ros']
+[14.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22) by extension 'ros'
+[14.142s] DEBUG:colcon.colcon_core.package_identification:Package '/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try22/src/solidworks2ros_try22' with type 'ros.catkin' and name 'solidworks2ros_try22'
+[14.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

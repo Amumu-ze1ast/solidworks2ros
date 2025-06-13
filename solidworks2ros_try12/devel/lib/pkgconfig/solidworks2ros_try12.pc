@@ -1,1 +1,1 @@
-/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12/lib/pkgconfig/solidworks2ros_try12.pc
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try12/devel/.private/solidworks2ros_try12/lib/pkgconfig/solidworks2ros_try12.pc
