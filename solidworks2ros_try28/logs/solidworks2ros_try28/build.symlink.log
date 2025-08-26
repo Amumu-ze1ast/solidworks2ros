@@ -1,0 +1,6 @@
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try28/devel/share/solidworks2ros_try28/cmake/solidworks2ros_try28Config-version.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try28/devel/share/solidworks2ros_try28/cmake/solidworks2ros_try28Config.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try28/devel/lib/pkgconfig/solidworks2ros_try28.pc
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try28/devel/lib/solidworks2ros_try28/moment_of_inertia.py
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try28/devel/lib/solidworks2ros_try28/joint_position_contoller_backward.py
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try28/devel/lib/solidworks2ros_try28/joint_position_contoller_forward.py

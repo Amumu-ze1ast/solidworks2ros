@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="solidworks2ros_try28">
+
+  <xacro:include filename="$(find solidworks2ros_try28)/urdf/sensors/kinetic_rgb.urdf.xacro"/>
+
+  <!-- Constants -->
+  <xacro:property name="deg_to_rad" value="0.01745329251994329577"/>
+
+  <link name="dummy"> 
+  </link>
+
+  <joint name="dummy_joint" type="fixed">
+     <parent link="dummy"/>
+     <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="-1.88284496932996 1.85095503067003 0.309175559526838"
+        rpy="0 0 0" />
+      <mass
+        value="6392.72345679221" />
+      <inertia
+        ixx="19006.406479851"
+        ixy="1.48153409205086E-12"
+        ixz="1.28231258095594E-14"
+        iyy="19571.3220769784"
+        iyz="7.58361406688969E-13"
+        izz="35531.7411278062" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.650980392156863 0.619607843137255 0.588235294117647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="fixed_link1">
+    <inertial>
+      <origin
+        xyz="-1.905 1.8923 -0.010583"
+        rpy="0 0 0" />
+      <mass
+        value="463.57" />
+      <inertia
+        ixx="0.77054"
+        ixy="8.2472E-16"
+        ixz="1.2028E-15"
+        iyy="560.97"
+        iyz="2.5532E-16"
+        izz="561.34" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/fixed_link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/fixed_link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="fixed_joint1"
+    type="fixed">
+    <origin
+      xyz="0.0635 0 3.9116"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="fixed_link1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+  <link name="link_1">
+    <inertial>
+      <origin
+        xyz="-0.0508 1.8923 0.075863"
+        rpy="0 0 0" />
+      <mass
+        value="19.418" />
+      <inertia
+        ixx="237.59"
+        ixy="4.0628E-16"
+        ixz="-5.0688E-17"
+        iyy="0.381"
+        iyz="6.5722E-14"
+        izz="237.48" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="joint_1"
+    type="prismatic">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="fixed_link1" />
+    <child
+      link="link_1" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="0"
+      upper="3.5"
+      effort="100"
+      velocity="0.2" />
+  </joint>
+
+  <link name="link_2">
+    <inertial>
+      <origin
+        xyz="-8.8551E-13 8.8818E-16 0.035634"
+        rpy="0 0 0" />
+      <mass
+        value="19.999" />
+      <inertia
+        ixx="6.1138"
+        ixy="1.272E-16"
+        ixz="-2.7041E-15"
+        iyy="12.79"
+        iyz="-1.1492E-16"
+        izz="7.2159" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_2"
+    type="prismatic">
+    <origin
+      xyz="-0.0508 0.2286 -0.1143"
+      rpy="0 0 0" />
+    <parent
+      link="link_1" />
+    <child
+      link="link_2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="3.5"
+      effort="100"
+      velocity="0.2" />
+  </joint>
+
+  <link name="link_3">
+    <inertial>
+      <origin
+        xyz="-1.5267E-08 -0.0016358 0.0016357"
+        rpy="0 0 0" />
+      <mass
+        value="9.0548" />
+      <inertia
+        ixx="0.1125"
+        ixy="-3.4293E-06"
+        ixz="-3.4131E-06"
+        iyy="0.086144"
+        iyz="-0.0012255"
+        izz="0.086144" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_3"
+    type="continuous">
+    <origin
+      xyz="0 0 -0.0762"
+      rpy="0 0 0" />
+    <parent
+      link="link_2" />
+    <child
+      link="link_3" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      effort="100"
+      velocity="3" />
+  </joint>
+
+  <!-- rope 1 - fixed -->
+  <link name="link_4">
+    <inertial>
+      <origin
+        xyz="-9.0594E-13 -1.7097E-14 -0.254"
+        rpy="0 0 0" />
+      <mass
+        value="0.57079" />
+      <inertia
+        ixx="0.012341"
+        ixy="8.6397E-09"
+        ixz="3.1246E-17"
+        iyy="0.012341"
+        iyz="5.5596E-18"
+        izz="0.00012997" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_4"
+    type="prismatic">
+    <origin
+      xyz="0 0.1143 -0.0762"
+      rpy="0 0 0" />
+    <parent
+      link="link_2" />
+    <child
+      link="link_4" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="3"
+      effort="100"
+      velocity="0.2" />
+  </joint>
+
+  <!-- Xacro Macro to define a rope link and joint -->
+  <xacro:macro name="rope_joint" params="index">
+    <!-- Define the link -->
+    <link name="link_${index}">
+      <inertial>
+        <origin
+          xyz="-9.0594E-13 -1.7097E-14 -0.254"
+          rpy="0 0 0" />
+        <mass
+          value="0.57079" />
+        <inertia
+          ixx="0.012341"
+          ixy="8.6397E-09"
+          ixz="3.1246E-17"
+          iyy="0.012341"
+          iyz="5.5596E-18"
+          izz="0.00012997" />
+      </inertial>
+      <visual>
+        <origin
+          xyz="0 0 0"
+          rpy="0 0 0" />
+        <geometry>
+          <mesh
+            filename="package://solidworks2ros_try28/meshes/link_4.STL" />
+        </geometry>
+        <material
+          name="">
+          <color
+            rgba="0.79216 0.81961 0.93333 1" />
+        </material>
+      </visual>
+      <collision>
+        <origin
+          xyz="0 0 0"
+          rpy="0 0 0" />
+        <geometry>
+          <mesh
+            filename="package://solidworks2ros_try28/meshes/link_4.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Define the joint of the ropes-->
+    <joint name="joint_${index}"
+      type="prismatic">
+      <origin
+        xyz="0 0.1143 -0.0762"
+        rpy="0 0 0" />
+      <parent
+        link="link_2" />
+      <child
+        link="link_${index}" />
+      <axis
+        xyz="0 0 -1" />
+      <limit
+        lower="0"
+        upper="3"
+        effort="100"
+        velocity="0.2" />
+    </joint>
+  </xacro:macro>
+
+  <!-- Call the macro for each joint -->
+  <xacro:rope_joint index="5"/>
+  <xacro:rope_joint index="6"/>
+  <xacro:rope_joint index="7"/>
+  <xacro:rope_joint index="8"/>
+  <xacro:rope_joint index="9"/>
+  <xacro:rope_joint index="91"/>
+
+  <!-- Gripper Started -->
+  <link name="link_92">
+    <inertial>
+      <origin
+        xyz="-8.8152E-13 1.9318E-14 -0.42631"
+        rpy="0 0 0" />
+      <mass
+        value="1.3087" />
+      <inertia
+        ixx="0.028066"
+        ixy="8.6397E-09"
+        ixz="3.2915E-17"
+        iyy="0.014387"
+        iyz="6.5619E-18"
+        izz="0.017451" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_92"
+    type="revolute">
+    <origin
+      xyz="0 0.0 -0.0762"
+      rpy="0 0 0" />
+    <parent
+      link="link_91" />
+    <child
+      link="link_92" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="100"
+      velocity="0.2" />
+  </joint>
+
+  <link name="link_93">
+    <inertial>
+      <origin
+        xyz="-8.9532E-08 -1.0549E-06 6.3524E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.25644" />
+      <inertia
+        ixx="0.0055252"
+        ixy="-9.0425E-09"
+        ixz="3.8739E-09"
+        iyy="2.0606E-05"
+        iyz="-2.1639E-09"
+        izz="0.0055252" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_93"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.5715"
+      rpy="0 0 0" />
+    <parent
+      link="link_92" />
+    <child
+      link="link_93" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="10"
+      effort="100"
+      velocity="0.2" />
+  </joint>
+
+  <link name="link_94">
+    <inertial>
+      <origin
+        xyz="-2.6645E-13 0.02024 -0.10869"
+        rpy="0 0 0" />
+      <mass
+        value="1.2098" />
+      <inertia
+        ixx="0.0067024"
+        ixy="1.038E-20"
+        ixz="-1.1358E-18"
+        iyy="0.0081115"
+        iyz="0.00016654"
+        izz="0.0018511" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.58824 0.58824 0.63137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_7.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_94"
+    type="prismatic">
+    <origin
+      xyz="0 -0.24703 -0.5715"
+      rpy="0 0 0" />
+    <parent
+      link="link_92" />
+    <child
+      link="link_94" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0.17"
+      effort="100"
+      velocity="0.05" />
+  </joint>
+
+  <link name="link_95">
+    <inertial>
+      <origin
+        xyz="-1.7764E-13 -0.02024 -0.10869"
+        rpy="0 0 0" />
+      <mass
+        value="1.2098" />
+      <inertia
+        ixx="0.0067024"
+        ixy="-2.4E-20"
+        ixz="-2.9035E-18"
+        iyy="0.00804"
+        iyz="-0.00016654"
+        izz="0.0017796" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_8.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.58824 0.58824 0.63137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try28/meshes/link_8.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_95"
+    type="prismatic">
+    <origin
+      xyz="0 0.24703 -0.5715"
+      rpy="0 0 0" />
+    <parent
+      link="link_92" />
+    <child
+      link="link_95" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0.17"
+      effort="100"
+      velocity="0.05" />
+    <mimic
+      joint="joint_94" 
+      offset="0"
+      multiplier="1" />
+  </joint>
+
+  <!-- Xacro Macro to define a transmission block -->
+  <xacro:macro name="joint_transmission" params="index">
+    <transmission name="trans_${index}">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="joint_${index}">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor_${index}">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+  </xacro:macro>
+
+  <!-- Call the macro for each joint -->
+  <!-- <xacro:joint_transmission index="1"/> -->
+  <!-- <xacro:joint_transmission index="2"/> -->
+  <!-- <xacro:joint_transmission index="3"/> -->
+  <xacro:joint_transmission index="4"/>
+  <xacro:joint_transmission index="5"/>
+  <xacro:joint_transmission index="6"/>
+  <xacro:joint_transmission index="7"/>
+  <xacro:joint_transmission index="8"/>
+  <xacro:joint_transmission index="9"/>
+  <!-- <xacro:joint_transmission index="91"/> -->
+  <xacro:joint_transmission index="92"/>
+  <xacro:joint_transmission index="93"/>
+  <xacro:joint_transmission index="94"/>
+  <xacro:joint_transmission index="95"/>
+
+  <transmission name="trans_3">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_3">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_3">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="trans_1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_1">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_1">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="trans_2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_2">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_2">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="trans_91">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_91">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_91">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+
+
+  <!-- Define RGB-D sensor 1 -->  
+  <xacro:kinetic_rgb name="rgbd_camera1" parent="link_92">
+      <origin xyz="0.0 0.0 -0.62" rpy="${0.0 * deg_to_rad} ${90.0 * deg_to_rad} ${0.0 * deg_to_rad}"/>
+      <origin xyz="0 0 0" rpy="${-90 * deg_to_rad} ${0 * deg_to_rad} ${-90 * deg_to_rad}" />
+  </xacro:kinetic_rgb>
+
+
+  <!-- Define RGB-D sensor 2-->  
+  <xacro:kinetic_rgb name="rgbd_camera2" parent="base_link">
+      <!-- <origin xyz="-3.59 0.0 3.84" rpy="${0.0 * deg_to_rad} ${45.0 * deg_to_rad} ${0.0 * deg_to_rad}"/> -->
+
+      <origin xyz="-1.8 1.8 5" rpy="${0.0 * deg_to_rad} ${90.0 * deg_to_rad} ${0.0 * deg_to_rad}"/>
+      <origin xyz="0 0 0" rpy="${-90 * deg_to_rad} ${0 * deg_to_rad} ${-90 * deg_to_rad}" />
+  </xacro:kinetic_rgb>
+
+  <!-- Gazebo plugin for controlling the rope -->
+  <gazebo>
+    <plugin name="ros_control" filename="libgazebo_ros_control.so">
+    </plugin>
+
+    <!-- Mimic gazebo plugin -->
+    <plugin name= "joint_95_mimic_joint_94" filename="/home/live4jesus/me_solidworks2ros/solidworks2ros/third_party/devel/lib/libroboticsgroup_gazebo_mimic_joint_plugin.so" >
+        <joint>joint_94</joint>
+        <mimicJoint>joint_95</mimicJoint>
+        <multiplier>1.0</multiplier>
+        <offset>0</offset>
+        <maxEffort>100</maxEffort>
+        <robotNamespace>/solidworks2ros_try28</robotNamespace>
+    </plugin>
+   
+    <!-- Grasp gazebo plugin -->
+    <plugin name="gazebo_grasp_fix" filename="/home/live4jesus/me_solidworks2ros/solidworks2ros/third_party/devel/lib/libgazebo_grasp_fix.so">
+        <arm>
+            <arm_name>gripper</arm_name>
+            <palm_link>link_92</palm_link>
+            <gripper_link>link_94</gripper_link>
+            <gripper_link>link_95</gripper_link>
+        </arm>
+        <forces_angle_tolerance>150</forces_angle_tolerance>
+        <update_rate>50</update_rate>
+        <grip_count_threshold>1</grip_count_threshold>
+        <max_grip_count>3</max_grip_count>
+        <release_tolerance>0.01</release_tolerance>
+        <disable_collision_on_attach>true</disable_collision_on_attach>
+        <contact_topic>__default_topic__</contact_topic>
+    </plugin>
+
+  </gazebo>
+
+    <gazebo reference="base_link" >
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="fixed_link1" >
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="link_1" >
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <gazebo reference="link_2" >
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+    <gazebo reference="link_3" >
+        <material>Gazebo/Yellow</material>
+    </gazebo>
+
+    <gazebo reference="link_92" >
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="link_93" >
+        <material>Gazebo/Yellow</material>
+    </gazebo>
+
+    <gazebo reference="link_94" >
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <gazebo reference="link_95" >
+        <material>Gazebo/White</material>
+    </gazebo>
+
+</robot>

@@ -74,25 +74,8 @@ def send_joint_commands(x, y, z, o):
     # Modify only the z-axis (joint 92)
     joint_positions.data[10] = z  # x-axis is joint 1
 
-
-
-
-
-    # X-axis
-    pub_x_axis.publish(x)
-    rospy.loginfo("Sent x-axis command: %s", joint_positions.data)
-        # Wait until joint 1 reaches the target
-    while not has_reached_target(0, x):
-        rospy.sleep(0.1)  # Check every 100ms
-
-    # Y-axis
-    pub_y_axis.publish(y)
-    rospy.loginfo("Sent y-axis command: %s", joint_positions.data)
-
-        # Wait until joint 2 reaches the target
-    while not has_reached_target(1, y):
-        rospy.sleep(0.1)
-
+    
+    
     # Rope
     pub_rope.publish(joint_rope)
     pub_trolley.publish(-0.5)
@@ -104,10 +87,31 @@ def send_joint_commands(x, y, z, o):
         # Optionally, wait for the z-axis joints to reach their target if needed
     while not has_reached_target(10, z):
         rospy.sleep(0.1)
-
+        
     pub_trolley.publish(0.0)
 
     rospy.sleep(2)
+
+    # Y-axis
+    pub_y_axis.publish(y)
+    rospy.loginfo("Sent y-axis command: %s", joint_positions.data)
+
+        # Wait until joint 2 reaches the target
+    while not has_reached_target(1, y):
+        rospy.sleep(0.1)
+
+    # X-axis
+    pub_x_axis.publish(x)
+    rospy.loginfo("Sent x-axis command: %s", joint_positions.data)
+        # Wait until joint 1 reaches the target
+    while not has_reached_target(0, x):
+        rospy.sleep(0.1)  # Check every 100ms
+
+    
+
+    
+
+    
 
     # Gripper
     if open == 0:

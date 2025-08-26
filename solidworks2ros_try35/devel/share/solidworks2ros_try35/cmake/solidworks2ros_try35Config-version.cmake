@@ -1,0 +1,1 @@
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try35/devel/.private/solidworks2ros_try35/share/solidworks2ros_try35/cmake/solidworks2ros_try35Config-version.cmake

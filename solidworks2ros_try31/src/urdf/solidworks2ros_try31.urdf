@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="solidworks2ros_try31">
+
+  <link name = "dummy">
+  </link>
+
+  <joint name="dummy_joint" type="fixed">
+    <parent link="dummy"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="0.28984 -0.1528 0.31437"
+        rpy="0 0 0" />
+      <mass
+        value="3158.6" />
+      <inertia
+        ixx="1559.2"
+        ixy="5.8895E-06"
+        ixz="0.005018"
+        iyy="13506"
+        iyz="-16.336"
+        izz="14564" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try31/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try31/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="link1">
+    <inertial>
+      <origin
+        xyz="-0.0028387 0.0029702 -0.059794"
+        rpy="0 0 0" />
+      <mass
+        value="479.53" />
+      <inertia
+        ixx="62.098"
+        ixy="-2.8844E-15"
+        ixz="6.2777E-14"
+        iyy="62.098"
+        iyz="9.4028E-15"
+        izz="114.95" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try31/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://solidworks2ros_try31/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="joint1"
+    type="continuous">
+    <origin
+      xyz="2.9619 -0.0029702 0.85629"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="100"
+      velocity="1" />
+  </joint>
+
+  <transmission name="trans1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint1">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor1">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <!-- Gazebo controller -->
+  <gazebo>
+      <plugin name="ros_control" filename="libgazebo_ros_control.so"/>
+  </gazebo>
+
+</robot>

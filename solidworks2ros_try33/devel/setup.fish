@@ -1,0 +1,1 @@
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try33/devel/.private/catkin_tools_prebuild/setup.fish

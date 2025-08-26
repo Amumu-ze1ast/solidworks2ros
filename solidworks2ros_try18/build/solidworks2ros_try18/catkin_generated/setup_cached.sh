@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18:$CMAKE_PREFIX_PATH"
-export PWD='/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/build/solidworks2ros_try18'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/src/solidworks2ros_try18:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18:$CMAKE_PREFIX_PATH"
+export PWD='/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/build/solidworks2ros_try18'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/src/solidworks2ros_try18:$ROS_PACKAGE_PATH"

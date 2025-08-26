@@ -1,5 +1,0 @@
-[31m[1mCMake Error[0m at /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try19/src/solidworks2ros_try19/CMakeLists.txt:20 (catkin_istall_python):
-  Unknown CMake command "catkin_istall_python".
-
-
-make: *** [Makefile:390: cmake_check_build_system] Error 1

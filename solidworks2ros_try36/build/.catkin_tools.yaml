@@ -1,0 +1,6 @@
+devel_space: /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/devel
+install: false
+install_space: /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/install
+profile: default
+source_space: /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/src
+workspace: /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36

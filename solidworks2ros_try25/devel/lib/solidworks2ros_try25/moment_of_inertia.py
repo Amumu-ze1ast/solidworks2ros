@@ -1,0 +1,1 @@
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try25/devel/.private/solidworks2ros_try25/lib/solidworks2ros_try25/moment_of_inertia.py

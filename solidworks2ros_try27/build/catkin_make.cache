@@ -1,0 +1,2 @@
+solidworks2ros_try27
+-DCATKIN_DEVEL_PREFIX=/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try27/devel -DCMAKE_INSTALL_PREFIX=/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try27/install -G Unix Makefiles

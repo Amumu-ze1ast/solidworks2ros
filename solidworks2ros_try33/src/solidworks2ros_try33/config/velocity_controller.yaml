@@ -1,0 +1,9 @@
+# Velocity controller 
+joint1_controller:
+  type: "velocity_controllers/JointVelocityController"
+  joint: joint1
+
+joint2_controller:
+  type: "velocity_controllers/JointVelocityController"
+  joint: joint2
+

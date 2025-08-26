@@ -30,6 +30,6 @@
     <!-- Load important nodes-->
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
     <node name="Robot_State_Publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
-    <!-- <node name="rqt_reconfigure" pkg="rqt_gui" type="rqt_gui" output="screen" /> -->
+    <node name="rqt_reconfigure" pkg="rqt_gui" type="rqt_gui" output="screen" />
         
 </launch>

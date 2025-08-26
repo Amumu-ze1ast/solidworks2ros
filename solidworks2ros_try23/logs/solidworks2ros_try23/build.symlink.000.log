@@ -1,6 +1,31 @@
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config.cmake
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config-version.cmake
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller4_short.py
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/moment_of_inertia.py
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/cmake.lock
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/pkgconfig/solidworks2ros_try23.pc
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config-version.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/devel/lib/pkgconfig/solidworks2ros_try23.pc
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/moment_of_inertia.py
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller_backward.py
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller_forward.py
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/cmake.lock, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/./cmake.lock)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config-version.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config-version.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/lib/solidworks2ros_try23/joint_position_contoller_backward.py, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller_backward.py)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/lib/solidworks2ros_try23/joint_position_contoller4_short.py, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller4_short.py)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/lib/solidworks2ros_try23/moment_of_inertia.py, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/moment_of_inertia.py)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/lib/solidworks2ros_try23/cmake.lock, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/cmake.lock)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/lib/solidworks2ros_try23/joint_position_contoller_forward.py, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller_forward.py)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/.private/solidworks2ros_try23/lib/pkgconfig/solidworks2ros_try23.pc, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/pkgconfig/solidworks2ros_try23.pc)
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/share/solidworks2ros_try23/cmake/solidworks2ros_try23Config-version.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller_backward.py
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller4_short.py
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/moment_of_inertia.py
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/cmake.lock
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/solidworks2ros_try23/joint_position_contoller_forward.py
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/devel/lib/pkgconfig/solidworks2ros_try23.pc
+Already unlinked: {}

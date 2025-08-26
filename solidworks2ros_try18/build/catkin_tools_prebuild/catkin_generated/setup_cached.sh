@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD='/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/build/catkin_tools_prebuild'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/catkin_tools_prebuild/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD='/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/devel/.private/catkin_tools_prebuild/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

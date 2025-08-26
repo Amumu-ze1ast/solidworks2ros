@@ -1,0 +1,4 @@
+solidworks2ros_try33
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try33/devel/.private/solidworks2ros_try33/share/solidworks2ros_try33/cmake/solidworks2ros_try33Config.cmake /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try33/devel/share/solidworks2ros_try33/cmake/solidworks2ros_try33Config.cmake
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try33/devel/.private/solidworks2ros_try33/share/solidworks2ros_try33/cmake/solidworks2ros_try33Config-version.cmake /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try33/devel/share/solidworks2ros_try33/cmake/solidworks2ros_try33Config-version.cmake
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try33/devel/.private/solidworks2ros_try33/lib/pkgconfig/solidworks2ros_try33.pc /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try33/devel/lib/pkgconfig/solidworks2ros_try33.pc

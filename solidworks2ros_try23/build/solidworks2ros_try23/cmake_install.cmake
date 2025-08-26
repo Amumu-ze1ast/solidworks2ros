@@ -1,8 +1,8 @@
-# Install script for directory: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/src/solidworks2ros_try23
+# Install script for directory: /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/src/solidworks2ros_try23
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install")
+  set(CMAKE_INSTALL_PREFIX "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,115 +49,130 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/_setup_util.py")
+   "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install" TYPE PROGRAM FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install" TYPE PROGRAM FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/env.sh")
+   "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install" TYPE PROGRAM FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install" TYPE PROGRAM FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/setup.bash;/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/local_setup.bash")
+   "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/setup.bash;/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/setup.bash"
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/setup.bash"
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/setup.sh;/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/local_setup.sh")
+   "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/setup.sh;/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/setup.sh"
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/setup.sh"
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/setup.zsh;/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/local_setup.zsh")
+   "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/setup.zsh;/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/setup.zsh"
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/setup.zsh"
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install/.rosinstall")
+   "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/setup.fish;/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/local_setup.fish")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/setup.fish"
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/local_setup.fish"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/solidworks2ros_try23.pc")
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install/.rosinstall")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install" TYPE FILE FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/.rosinstall")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/solidworks2ros_try23.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/solidworks2ros_try23/cmake" TYPE FILE FILES
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/solidworks2ros_try23Config.cmake"
-    "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/solidworks2ros_try23Config-version.cmake"
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/solidworks2ros_try23Config.cmake"
+    "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/solidworks2ros_try23Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/solidworks2ros_try23" TYPE FILE FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/src/solidworks2ros_try23/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/solidworks2ros_try23" TYPE FILE FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/src/solidworks2ros_try23/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/solidworks2ros_try23" TYPE PROGRAM FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/moment_of_inertia.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/solidworks2ros_try23" TYPE PROGRAM FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/moment_of_inertia.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/solidworks2ros_try23" TYPE PROGRAM FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/joint_position_contoller_forward.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/solidworks2ros_try23" TYPE PROGRAM FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/joint_position_contoller_forward.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/solidworks2ros_try23" TYPE PROGRAM FILES "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/joint_position_contoller_backward.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/solidworks2ros_try23" TYPE PROGRAM FILES "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/catkin_generated/installspace/joint_position_contoller_backward.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/gtest/cmake_install.cmake")
+  include("/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/gtest/cmake_install.cmake")
 
 endif()
 
@@ -169,5 +184,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/solidworks2ros_try23/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

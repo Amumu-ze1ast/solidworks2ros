@@ -1,0 +1,4 @@
+solidworks2ros_try36
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/devel/.private/solidworks2ros_try36/share/solidworks2ros_try36/cmake/solidworks2ros_try36Config.cmake /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/devel/share/solidworks2ros_try36/cmake/solidworks2ros_try36Config.cmake
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/devel/.private/solidworks2ros_try36/share/solidworks2ros_try36/cmake/solidworks2ros_try36Config-version.cmake /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/devel/share/solidworks2ros_try36/cmake/solidworks2ros_try36Config-version.cmake
+/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/devel/.private/solidworks2ros_try36/lib/pkgconfig/solidworks2ros_try36.pc /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try36/devel/lib/pkgconfig/solidworks2ros_try36.pc

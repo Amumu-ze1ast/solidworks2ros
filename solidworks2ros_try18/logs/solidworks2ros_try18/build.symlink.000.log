@@ -1,3 +1,13 @@
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config-version.cmake
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config.cmake
-Symlinking /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/lib/pkgconfig/solidworks2ros_try18.pc
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config-version.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try18/devel/lib/pkgconfig/solidworks2ros_try18.pc
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18/cmake.lock, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/./cmake.lock)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config-version.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config-version.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/.private/solidworks2ros_try18/lib/pkgconfig/solidworks2ros_try18.pc, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/lib/pkgconfig/solidworks2ros_try18.pc)
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config-version.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/share/solidworks2ros_try18/cmake/solidworks2ros_try18Config.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try18/devel/lib/pkgconfig/solidworks2ros_try18.pc
+Already unlinked: {}

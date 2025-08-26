@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# generated from catkin/cmake/template/script.py.in
+# creates a relay to a python script source file, acting as that file.
+# The purpose is that of a symlink
+python_script = '/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try28/src/solidworks2ros_try28/scripts/joint_position_contoller_backward.py'
+with open(python_script, 'r') as fh:
+    context = {
+        '__builtins__': __builtins__,
+        '__doc__': None,
+        '__file__': python_script,
+        '__name__': __name__,
+        '__package__': None,
+    }
+    exec(compile(fh.read(), python_script, 'exec'), context)

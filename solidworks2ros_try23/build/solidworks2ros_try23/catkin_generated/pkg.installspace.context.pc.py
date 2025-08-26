@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "solidworks2ros_try23"
-PROJECT_SPACE_DIR = "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install"
+PROJECT_SPACE_DIR = "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install"
 PROJECT_VERSION = "0.0.0"

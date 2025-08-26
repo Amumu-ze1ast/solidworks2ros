@@ -1,0 +1,12 @@
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try26/devel/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config-version.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try26/devel/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config.cmake
+Symlinking /home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try26/devel/lib/pkgconfig/solidworks2ros_try26.pc
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/.private/solidworks2ros_try26/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/.private/solidworks2ros_try26/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config-version.cmake, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config-version.cmake)
+Cleaning: (/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/.private/solidworks2ros_try26/lib/pkgconfig/solidworks2ros_try26.pc, /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/lib/pkgconfig/solidworks2ros_try26.pc)
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/share/solidworks2ros_try26/cmake/solidworks2ros_try26Config-version.cmake
+Already unlinked: {}
+Unlinking: /home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try26/devel/lib/pkgconfig/solidworks2ros_try26.pc
+Already unlinked: {}

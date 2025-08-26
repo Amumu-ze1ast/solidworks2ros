@@ -1,0 +1,8 @@
+prefix=/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try26/install
+
+Name: solidworks2ros_try26
+Description: Description of solidworks2ros_try26
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

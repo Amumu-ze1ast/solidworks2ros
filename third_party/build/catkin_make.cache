@@ -1,0 +1,2 @@
+gazebo-pkgs/gazebo_grasp_plugin:gazebo-pkgs/gazebo_version_helpers:roboticsgroup_gazebo_plugins
+-DCATKIN_DEVEL_PREFIX=/home/live4jesus/me_solidworks2ros/solidworks2ros/third_party/devel -DCMAKE_INSTALL_PREFIX=/home/live4jesus/me_solidworks2ros/solidworks2ros/third_party/install -G Unix Makefiles

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/install")
+  set(CMAKE_INSTALL_PREFIX "/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/amumu-ze1ast/me_solidworks2ros/solidworks2ros_try23/build/catkin_tools_prebuild/gtest/googlemock/cmake_install.cmake")
+  include("/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try23/build/catkin_tools_prebuild/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

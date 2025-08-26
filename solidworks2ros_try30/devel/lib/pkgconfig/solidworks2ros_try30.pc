@@ -1,0 +1,8 @@
+prefix=/home/live4jesus/me_solidworks2ros/solidworks2ros/solidworks2ros_try30/devel
+
+Name: solidworks2ros_try30
+Description: Description of solidworks2ros_try30
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
